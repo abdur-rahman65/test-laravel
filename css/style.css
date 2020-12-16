@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800|Merriweather&display=swap');
+body{
+	background:#F5EEF8;
+	font-size: 16;
+	line-height: 1.6;
+	color:#85929E;
+}
+section{
+	padding: 60px 0px;
+}
+#section-offer{
+	background:#FDF2E9;
+}
+.offer-item{
+	border:5px solid #F4F6F6;
+}
+#section-menu{
+	background: #E7E2DE ;
+}
+.menu-item{
+	color: #AFB4E1;
+}
+.pic img:hover{
+
+	opacity: 0.7;
+	transition: 1s;
+}
+.img{
+	position: relative;
+}
+.overlay{
+	opacity: 0;
+}
+.img:hover .overlay{
+	opacity: 1;
+}
+.img img:hover{
+	transition: 1s;
+	opacity: 0.7;
+}
+a.text{
+	background-color:#F99B37;
+	border-radius: 5px;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Merriweather', serif;
+	position: absolute;
+	top: 40%;
+    left: 29%;
+}
+.contact{
+	padding: 10px;
+	overflow: hidden;
+	background:#F2F4F4;
+}
+.contact h3{
+	text-align: center;
+	color: black;
+	font-family: 'Merriweather', serif;
+}
+.map{
+	float: left;
+}
+.card{
+	margin-bottom: 30px;
+	margin-top:10px;
+}
+.footer p:hover{
+		color: #FA5503;
+}
+
